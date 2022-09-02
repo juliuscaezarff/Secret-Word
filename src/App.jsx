@@ -26,7 +26,7 @@ function App() {
 
   const [pickedWord, setPickedWord] = useState("")
   const [pickedCategory, setPickedCategory] = useState("")
-  const {letters, setLetters} = useState("")
+  const [letters, setLetters] = useState("")
 
   const pickedWordAndPickedCategory = () => {
     //pick a random category
